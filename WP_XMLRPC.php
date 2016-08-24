@@ -32,7 +32,7 @@ function send_new_post_to_wp($post_title, $post_content, $category)
     } else {
         echo "Article Posted Successfully";
     }
-
+    
 // Display the result
     echo "\n";
     var_dump($_CLIENT->getResponse());

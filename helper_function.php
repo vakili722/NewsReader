@@ -8,7 +8,7 @@ function feach_content(& $content, $indexs, $conf, $link) {
     foreach ($indexs as $index) {
         switch ($index) {
             case 'img':
-                $content[$index] = $rawHtml->find($conf[$index], 0)->src;
+                // $content[$index] = $rawHtml->find($conf[$index], 0)->src;
                 break;
             case 'text':
                 get_text_news($content, $rawHtml, $conf[$index], $index);

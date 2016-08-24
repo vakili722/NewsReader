@@ -11,18 +11,18 @@ $confs[0] = [
     'category' => 'city',
     'reference' => 'خانه خشتی',
     'referenceLink' => 'http://www.khanehkheshti.com/',
-    'items' => '#content .post',
-    'title' => '.title a',
-    'link' => '.title a',
-    'abstract' => '.info p',
+    'items' => '.archive-post',
+    'title' => '.post-title',
+    'link' => 'a',
+    'abstract' => '.post-excerpt',
     'content' => [
-        'publishedDate' => '.header span$2',
+        'publishedDate' => '.statistics p > span$2',
         'text' => [
-            'trash' => ['div .ssba', '.ssba-wrap'],
-            'start' => '#kholaseh',
-            'end' => 'br + .clear'
+            'trash' => ['.statistics','.post-title','.under-post-title'],
+            'start' => '.post-content',
+            'end' => '#ads-row'
         ],
-        'img' => '.wp-post-image'
+        'img' => 'img .img-responsive'
     ]
 ];
 
@@ -31,18 +31,18 @@ $confs[1] = [
     'category' => 'politic',
     'reference' => 'خانه خشتی',
     'referenceLink' => 'http://www.khanehkheshti.com/',
-    'items' => '#content .post',
-    'title' => '.title a',
-    'link' => '.title a',
-    'abstract' => '.info p',
+    'items' => '.archive-post',
+    'title' => '.post-title',
+    'link' => 'a',
+    'abstract' => '.post-excerpt',
     'content' => [
-        'publishedDate' => '.header span$2',
+        'publishedDate' => '.statistics p > span$2',
         'text' => [
-            'trash' => ['div .ssba', '.ssba-wrap'],
-            'start' => '#kholaseh',
-            'end' => 'br + .clear'
+            'trash' => ['.statistics','.post-title','.under-post-title'],
+            'start' => '.post-content',
+            'end' => '#ads-row'
         ],
-        'img' => '.wp-post-image'
+        'img' => 'img .img-responsive'
     ]
 ];
 
@@ -51,18 +51,18 @@ $confs[2] = [
     'category' => 'society',
     'reference' => 'خانه خشتی',
     'referenceLink' => 'http://www.khanehkheshti.com/',
-    'items' => '#content .post',
-    'title' => '.title a',
-    'link' => '.title a',
-    'abstract' => '.info p',
+    'items' => '.archive-post',
+    'title' => '.post-title',
+    'link' => 'a',
+    'abstract' => '.post-excerpt',
     'content' => [
-        'publishedDate' => '.header span$2',
+        'publishedDate' => '.statistics p > span$2',
         'text' => [
-            'trash' => ['div .ssba', '.ssba-wrap'],
-            'start' => '#kholaseh',
-            'end' => 'br + .clear'
+            'trash' => ['.statistics','.post-title','.under-post-title'],
+            'start' => '.post-content',
+            'end' => '#ads-row'
         ],
-        'img' => '.wp-post-image'
+        'img' => 'img .img-responsive'
     ]
 ];
 
@@ -71,18 +71,18 @@ $confs[3] = [
     'category' => 'culture',
     'reference' => 'خانه خشتی',
     'referenceLink' => 'http://www.khanehkheshti.com/',
-    'items' => '#content .post',
-    'title' => '.title a',
-    'link' => '.title a',
-    'abstract' => '.info p',
+    'items' => '.archive-post',
+    'title' => '.post-title',
+    'link' => 'a',
+    'abstract' => '.post-excerpt',
     'content' => [
-        'publishedDate' => '.header span$2',
+        'publishedDate' => '.statistics p > span$2',
         'text' => [
-            'trash' => ['div .ssba', '.ssba-wrap'],
-            'start' => '#kholaseh',
-            'end' => 'br + .clear'
+            'trash' => ['.statistics','.post-title','.under-post-title'],
+            'start' => '.post-content',
+            'end' => '#ads-row'
         ],
-        'img' => '.wp-post-image'
+        'img' => 'img .img-responsive'
     ]
 ];
 
@@ -91,18 +91,18 @@ $confs[4] = [
     'category' => 'economy',
     'reference' => 'خانه خشتی',
     'referenceLink' => 'http://www.khanehkheshti.com/',
-    'items' => '#content .post',
-    'title' => '.title a',
-    'link' => '.title a',
-    'abstract' => '.info p',
+    'items' => '.archive-post',
+    'title' => '.post-title',
+    'link' => 'a',
+    'abstract' => '.post-excerpt',
     'content' => [
-        'publishedDate' => '.header span$2',
+        'publishedDate' => '.statistics p > span$2',
         'text' => [
-            'trash' => ['div .ssba', '.ssba-wrap'],
-            'start' => '#kholaseh',
-            'end' => 'br + .clear'
+            'trash' => ['.statistics','.post-title','.under-post-title'],
+            'start' => '.post-content',
+            'end' => '#ads-row'
         ],
-        'img' => '.wp-post-image'
+        'img' => 'img .img-responsive'
     ]
 ];
 
@@ -111,18 +111,18 @@ $confs[5] = [
     'category' => 'sport',
     'reference' => 'خانه خشتی',
     'referenceLink' => 'http://www.khanehkheshti.com/',
-    'items' => '#content .post',
-    'title' => '.title a',
-    'link' => '.title a',
-    'abstract' => '.info p',
+    'items' => '.archive-post',
+    'title' => '.post-title',
+    'link' => 'a',
+    'abstract' => '.post-excerpt',
     'content' => [
-        'publishedDate' => '.header span$2',
+        'publishedDate' => '.statistics p > span$2',
         'text' => [
-            'trash' => ['div .ssba', '.ssba-wrap'],
-            'start' => '#kholaseh',
-            'end' => 'br + .clear'
+            'trash' => ['.statistics','.post-title','.under-post-title'],
+            'start' => '.post-content',
+            'end' => '#ads-row'
         ],
-        'img' => '.wp-post-image'
+        'img' => 'img .img-responsive'
     ]
 ];
 
@@ -131,18 +131,18 @@ $confs[6] = [
     'category' => 'satire',
     'reference' => 'خانه خشتی',
     'referenceLink' => 'http://www.khanehkheshti.com/',
-    'items' => '#content .post',
-    'title' => '.title a',
-    'link' => '.title a',
-    'abstract' => '.info p',
+    'items' => '.archive-post',
+    'title' => '.post-title',
+    'link' => 'a',
+    'abstract' => '.post-excerpt',
     'content' => [
-        'publishedDate' => '.header span$2',
+        'publishedDate' => '.statistics p > span$2',
         'text' => [
-            'trash' => ['div .ssba', '.ssba-wrap'],
-            'start' => '#kholaseh',
-            'end' => 'br + .clear'
+            'trash' => ['.statistics','.post-title','.under-post-title'],
+            'start' => '.post-content',
+            'end' => '#ads-row'
         ],
-        'img' => '.wp-post-image'
+        'img' => 'img .img-responsive'
     ]
 ];
 
@@ -151,18 +151,18 @@ $confs[7] = [
     'category' => 'event',
     'reference' => 'خانه خشتی',
     'referenceLink' => 'http://www.khanehkheshti.com/',
-    'items' => '#content .post',
-    'title' => '.title a',
-    'link' => '.title a',
-    'abstract' => '.info p',
+    'items' => '.archive-post',
+    'title' => '.post-title',
+    'link' => 'a',
+    'abstract' => '.post-excerpt',
     'content' => [
-        'publishedDate' => '.header span$2',
+        'publishedDate' => '.statistics p > span$2',
         'text' => [
-            'trash' => ['div .ssba', '.ssba-wrap'],
-            'start' => '#kholaseh',
-            'end' => 'br + .clear'
+            'trash' => ['.statistics','.post-title','.under-post-title'],
+            'start' => '.post-content',
+            'end' => '#ads-row'
         ],
-        'img' => '.wp-post-image'
+        'img' => 'img .img-responsive'
     ]
 ];
 
@@ -171,18 +171,18 @@ $confs[8] = [
     'category' => 'healt',
     'reference' => 'خانه خشتی',
     'referenceLink' => 'http://www.khanehkheshti.com/',
-    'items' => '#content .post',
-    'title' => '.title a',
-    'link' => '.title a',
-    'abstract' => '.info p',
+    'items' => '.archive-post',
+    'title' => '.post-title',
+    'link' => 'a',
+    'abstract' => '.post-excerpt',
     'content' => [
-        'publishedDate' => '.header span$2',
+        'publishedDate' => '.statistics p > span$2',
         'text' => [
-            'trash' => ['div .ssba', '.ssba-wrap'],
-            'start' => '#kholaseh',
-            'end' => 'br + .clear'
+            'trash' => ['.statistics','.post-title','.under-post-title'],
+            'start' => '.post-content',
+            'end' => '#ads-row'
         ],
-        'img' => '.wp-post-image'
+        'img' => 'img .img-responsive'
     ]
 ];
 
@@ -191,18 +191,18 @@ $confs[9] = [
     'category' => 'picture',
     'reference' => 'خانه خشتی',
     'referenceLink' => 'http://www.khanehkheshti.com/',
-    'items' => '#content .post',
-    'title' => '.title a',
-    'link' => '.title a',
-    'abstract' => '.info p',
+    'items' => '.archive-post',
+    'title' => '.post-title',
+    'link' => 'a',
+    'abstract' => '.post-excerpt',
     'content' => [
-        'publishedDate' => '.header span$2',
+        'publishedDate' => '.statistics p > span$2',
         'text' => [
-            'trash' => ['div .ssba', '.ssba-wrap'],
-            'start' => '#kholaseh',
-            'end' => 'br + .clear'
+            'trash' => ['.statistics','.post-title','.under-post-title'],
+            'start' => '.post-content',
+            'end' => '#ads-row'
         ],
-        'img' => '.wp-post-image'
+        'img' => 'img .img-responsive'
     ]
 ];
 
@@ -211,31 +211,38 @@ $confs[10] = [
     'category' => 'thecnology',
     'reference' => 'خانه خشتی',
     'referenceLink' => 'http://www.khanehkheshti.com/',
-    'items' => '#content .post',
-    'title' => '.title a',
-    'link' => '.title a',
-    'abstract' => '.info p',
+    'items' => '.archive-post',
+    'title' => '.post-title',
+    'link' => 'a',
+    'abstract' => '.post-excerpt',
     'content' => [
-        'publishedDate' => '.header span$2',
+        'publishedDate' => '.statistics p > span$2',
         'text' => [
-            'trash' => ['div .ssba', '.ssba-wrap'],
-            'start' => '#kholaseh',
-            'end' => 'br + .clear'
+            'trash' => ['.statistics','.post-title','.under-post-title'],
+            'start' => '.post-content',
+            'end' => '#ads-row'
         ],
-        'img' => '.wp-post-image'
+        'img' => 'img .img-responsive'
     ]
 ];
 
-
+// $conf = $confs[0];
 foreach ($confs as $conf) {
     var_dump($conf['site']);
     $rawHtml = file_get_html($conf['site']);
-
+	// var_dump($rawHtml);
 //$temp = '';
     foreach ($rawHtml->find($conf['items']) as $element) {
         $title = $element->find($conf['title'], 0)->plaintext;
+        // echo "\n";
+        // echo "\ntitle:";
+        // var_dump($title);
         $link = $element->find($conf['link'], 0)->href;
+        // echo "\nlink:";
+        // var_dump($link);
         $abstract = $element->find($conf['abstract'], 0)->plaintext;
+        // echo "\nabstract:";
+        // var_dump($abstract);
         $content = [];
         $index = array_keys($conf['content']);
 
@@ -252,7 +259,7 @@ foreach ($confs as $conf) {
 //        $temp .= "\n";
 //        $temp .= "\n";
             insert_new_news($title);
-//        var_dump($link);
+        // var_dump($link);
             sleep(20);
         }
     }
