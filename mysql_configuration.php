@@ -3,9 +3,9 @@
 
 $_MYSQL_CONF = [
     'host' => 'localhost',
-    'table' => 'test.test',
+    'table' => 'test1.test',
     'user' => 'root',
-    'pass' => ''
+    'pass' => 'toor'
 ];
 
 // Create connection
